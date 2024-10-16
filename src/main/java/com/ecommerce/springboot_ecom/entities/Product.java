@@ -27,5 +27,7 @@ public class Product{
     @Column(name = "is_active")
     private Boolean is_active;
 
+    @Column(name = "category_id")
+    private Integer category_id;
 
 }
